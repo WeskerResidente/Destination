@@ -12,10 +12,15 @@
     display: flex;
     box-shadow: 1px 10px 10px  rgba(0, 0, 0, 0.151);
     justify-content: space-around;
-    gap: 5rem;
+    gap: 5rem;    
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 
-    
+}
 
+nav {
+    font-size:large;
 }
 h2 {
     font-family: "Roboto Bold";
@@ -25,6 +30,7 @@ h2 {
     display: flex;
     gap: 5rem;
     justify-content: center;
+    
 
 }
 body {
@@ -45,9 +51,11 @@ body {
     width: 20%;
     height: 70vh;
     margin-top: 3rem;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 2%;
     overflow: hidden;
+    position: relative;
+    box-shadow: 1px 8px 10px  rgba(0, 0, 0, 0.726);
 }
 
 .destination-image {
@@ -59,4 +67,45 @@ body {
    width: 100%;
    height: 100%; 
    object-fit: cover;
+}
+
+.destination-content {
+    margin: 2rem;
+}
+
+.btn { 
+    position: absolute;
+    padding: 3%;
+    transform: translate(-50%);
+    left: 50%;
+    text-decoration: none;
+    bottom: 3%;
+    
+
+}
+
+a {
+    text-decoration: none;
+
+}
+li {
+    list-style: none;
+}
+.btn-paris {
+    background-color: blue;
+    color: white;
+}
+.btn-tokyo {
+    background-color: orange;
+    color: white;
+}
+
+.btn-Newyork {
+    background-color: purple;
+    color: white;
+}
+#logo {
+
+    height: 50% ;
+
 }
