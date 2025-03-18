@@ -1,3 +1,0 @@
-postion absolute sur le bouton
-git config --global user.name
-taille image 1frst
